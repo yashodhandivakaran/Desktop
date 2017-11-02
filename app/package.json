@@ -1,0 +1,15 @@
+{
+  "name": "Desktop",
+  "version": "1.0.0",
+  "description": "Boilerplate of electron app with react,redux,redux-saga,webpack,babel,react-router and clean architecture of electron project",
+  "main": "main.js",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^3.0.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "Boilerplate of electron app with react,redux,redux-saga,webpack,babel,react-router and clean architecture of electron project",
+  "scripts": {
+    "start": "electron app",
+    "dev": "npm run build && npm start",
+    "build": "cross-env NODE_ENV=production webpack",
+    "postinstall": "npm run install-app",
+    "install-app": "cd app && npm install"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-3"
+    ],
+    "plugins": [
+      "transform-class-properties"
+    ]
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Yashodhan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.1.0",
+    "webpack": "^3.8.1"
+  }
+}
