@@ -29,7 +29,7 @@ This will initiate webpack build process, once done it will start the electron a
 # Project Description
 
 Desktop is a tool to quickly start building cross platform Desktop applications with zero configuration.
-This aim of this project is to provide clean architecture and boilerplate code for making production ready Electron Apps.
+The aim of this project is to provide clean architecture and boilerplate code for making production ready Electron Apps.
 Use [React](https://facebook.github.io/react/) for UI and state management is done with [Redux](https://github.com/reactjs/redux)
 
 
