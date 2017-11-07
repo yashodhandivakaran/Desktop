@@ -34,7 +34,7 @@ Use [React](https://facebook.github.io/react/) for UI and state management is do
 
 
 # TODO
-- [ ] Redux-Saga
+- [X] Redux-Saga
 - [ ] Api calls demo
 - [ ] Sqlite setup and its demo
 - [ ] Setup electron-packager
